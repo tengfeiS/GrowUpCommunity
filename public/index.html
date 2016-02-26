@@ -3,35 +3,20 @@
 <head>
 	<title>Grow Up Community</title>
     <meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/mybootstrap.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/head_nav_index.css">
 </head>
 <body>
-    <div class ="container site_container">
+
         <div class="head">
-            <div class="brand_container pull-left">
+            <div class="brand_container">
                 <a href="#">Project</a>
             </div>
-            <div class="dropdown pull-left head-dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    瑞金
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu pull-left" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">深圳</a></li>
-                    <li><a href="#">北京</a></li>
-                    <li><a href="#">上海</a></li>
-                    <li><a href="#">广州</a></li>
-                </ul>
-            </div>
-            <form class="form-inline pull-left search-form">
-                <div class="form-group">
-                    <label class="sr-only" for="search">Search</label>
-                    <input type="text" class="form-control" id="search"  placeholder="搜索">
-                </div>
+            <form class="search-form">
+                <input type="text" class="form-control" id="search"  placeholder="搜索">
                 <Button  class="glyphicon glyphicon-search search-span"  onclick=""></Button>
             </form>
-            <ul class="tab-title pull-left">
+            <ul class=" tab-title pull-left">
                 <li><a href="#">校园</a> </li>
                 <li><a href="#">课堂</a> </li>
                 <li><a href="#">社团</a> </li>
@@ -71,7 +56,7 @@
 
         </div>
 
-    </div>
+
     <script type="text/javascript" src="lib/angular/angular.js"></script>
 	<script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
