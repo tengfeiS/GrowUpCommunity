@@ -1,0 +1,20 @@
+{
+  "name": "gpcommunity",
+  "version": "0.1.0",
+  "description": "a grow up community website",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "growup",
+    "community"
+  ],
+  "author": "zhonglh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.5"
+  }
+}
